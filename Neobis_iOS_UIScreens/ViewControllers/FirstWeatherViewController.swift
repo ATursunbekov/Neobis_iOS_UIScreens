@@ -43,8 +43,9 @@ class ViewController: UIViewController {
     let cityName: UILabel = {
         let label = UILabel()
         label.text = "Бишкек"
-        label.font = UIFont.systemFont(ofSize: 24, weight: .bold)
+        label.font = UIFont(name: "Overpass-Bold", size: 24)
         label.textColor = .white
+        label.addRegularShadow()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -95,6 +96,10 @@ class ViewController: UIViewController {
         let button = UIButton()
         button.backgroundColor = .white
         button.layer.cornerRadius = 20
+        button.layer.shadowColor = UIColor.black.cgColor
+        button.layer.shadowOffset = CGSize(width: -3, height: 5)
+        button.layer.shadowOpacity = 0.25
+        button.layer.shadowRadius = 6
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -102,8 +107,9 @@ class ViewController: UIViewController {
     let dateLabel: UILabel = {
         let label = UILabel()
         label.text = "Сегодня, 26 Апрель"
-        label.font = UIFont.systemFont(ofSize: 18, weight: .regular)
+        label.font = UIFont(name: "Overpass-Regular", size: 18)
         label.textColor = .white
+        label.addRegularShadow()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -111,12 +117,9 @@ class ViewController: UIViewController {
     let temperatureLabel: UILabel = {
         let label = UILabel()
         label.text = "22°"
-        label.font = UIFont.systemFont(ofSize: 100, weight: .regular)
+        label.font = UIFont(name: "Overpass-Regular", size: 100)
         label.textColor = .white
-        label.layer.shadowColor = UIColor.black.cgColor
-        label.layer.shadowOffset = CGSize(width: -6, height: 4)
-        label.layer.shadowOpacity = 0.25
-        label.layer.shadowRadius = 4
+        label.addTextShadow()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -124,8 +127,9 @@ class ViewController: UIViewController {
     let titleLabel: UILabel = {
         let label = UILabel()
         label.text = "Солнечно"
-        label.font = UIFont.systemFont(ofSize: 24, weight: .bold)
+        label.font = UIFont(name: "Overpass-Bold", size: 24)
         label.textColor = .white
+        label.addRegularShadow()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -157,8 +161,9 @@ class ViewController: UIViewController {
     let windLabel: UILabel = {
         let label = UILabel()
         label.text = "Ветер |  15 km/h"
-        label.font = UIFont.systemFont(ofSize: 18, weight: .regular)
+        label.font = UIFont(name: "Overpass-Regular", size: 18)
         label.textColor = .white
+        label.addRegularShadow()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -166,8 +171,9 @@ class ViewController: UIViewController {
     let rainLabel: UILabel = {
         let label = UILabel()
         label.text = "Дождь | 26 %"
-        label.font = UIFont.systemFont(ofSize: 18, weight: .regular)
+        label.font = UIFont(name: "Overpass-Regular", size: 18)
         label.textColor = .white
+        label.addRegularShadow()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -175,7 +181,7 @@ class ViewController: UIViewController {
     let buttonLable:UILabel = {
         let label = UILabel()
         label.text = "Прогноз на неделю"
-        label.font = UIFont.systemFont(ofSize: 16, weight: .regular)
+        label.font = UIFont(name: "Overpass-Regular", size: 16)
         label.textColor = .black
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -320,6 +326,14 @@ class ViewController: UIViewController {
             arrowTop.trailingAnchor.constraint(equalTo: weatherButton.trailingAnchor, constant: -23),
             
         ])
+        //addign Targets
+        weatherButton.addTarget(self, action: #selector(weatherButtonPressed), for: .touchUpInside)
+    }
+    
+    @objc func weatherButtonPressed() {
+        let vc = SecondWeatherViewController()
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
     }
     
     func dynamicHeight(_ height: Double) -> Double{

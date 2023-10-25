@@ -7,17 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		771D65CE2AE9052300FCB10E /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771D65CD2AE9052300FCB10E /* WeatherModel.swift */; };
+		771D65D02AE9505D00FCB10E /* WeatherCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771D65CF2AE9505D00FCB10E /* WeatherCustomTableViewCell.swift */; };
 		772C10C52AE41E2D0045A139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C10C42AE41E2D0045A139 /* AppDelegate.swift */; };
 		772C10C72AE41E2D0045A139 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C10C62AE41E2D0045A139 /* SceneDelegate.swift */; };
 		772C10C92AE41E2D0045A139 /* FirstWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C10C82AE41E2D0045A139 /* FirstWeatherViewController.swift */; };
 		772C10CE2AE41E2F0045A139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772C10CD2AE41E2F0045A139 /* Assets.xcassets */; };
 		772C10D12AE41E2F0045A139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772C10CF2AE41E2F0045A139 /* LaunchScreen.storyboard */; };
-		77E08ACE2AE525FC0089F498 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E08ACD2AE525FC0089F498 /* Extensions.swift */; };
-		77E08AD02AE569490089F498 /* static in Resources */ = {isa = PBXBuildFile; fileRef = 77E08ACF2AE569490089F498 /* static */; };
+		77651CCA2AE63DDA0078B921 /* Overpass-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77651CC82AE63DCA0078B921 /* Overpass-Bold.ttf */; };
+		77651CCB2AE63DDD0078B921 /* Overpass-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77651CC92AE63DD30078B921 /* Overpass-Regular.ttf */; };
+		77651CCD2AE66C3C0078B921 /* LabelExtentaions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77651CCC2AE66C3C0078B921 /* LabelExtentaions.swift */; };
+		77E08ACE2AE525FC0089F498 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E08ACD2AE525FC0089F498 /* ColorExtension.swift */; };
 		77E08AD32AE570FC0089F498 /* SecondWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E08AD22AE570FC0089F498 /* SecondWeatherViewController.swift */; };
+		77F7D1742AE6ADC0006F0D53 /* WeatherCustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F7D1732AE6ADC0006F0D53 /* WeatherCustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		771D65CD2AE9052300FCB10E /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		771D65CF2AE9505D00FCB10E /* WeatherCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCustomTableViewCell.swift; sourceTree = "<group>"; };
 		772C10C12AE41E2D0045A139 /* Neobis_iOS_UIScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neobis_iOS_UIScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		772C10C42AE41E2D0045A139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		772C10C62AE41E2D0045A139 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,9 +32,12 @@
 		772C10CD2AE41E2F0045A139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		772C10D02AE41E2F0045A139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		772C10D22AE41E2F0045A139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77E08ACD2AE525FC0089F498 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		77E08ACF2AE569490089F498 /* static */ = {isa = PBXFileReference; lastKnownFileType = folder; path = static; sourceTree = "<group>"; };
+		77651CC82AE63DCA0078B921 /* Overpass-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Bold.ttf"; sourceTree = "<group>"; };
+		77651CC92AE63DD30078B921 /* Overpass-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Regular.ttf"; sourceTree = "<group>"; };
+		77651CCC2AE66C3C0078B921 /* LabelExtentaions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExtentaions.swift; sourceTree = "<group>"; };
+		77E08ACD2AE525FC0089F498 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		77E08AD22AE570FC0089F498 /* SecondWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondWeatherViewController.swift; sourceTree = "<group>"; };
+		77F7D1732AE6ADC0006F0D53 /* WeatherCustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		771D65CC2AE9050E00FCB10E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				771D65CD2AE9052300FCB10E /* WeatherModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		772C10B82AE41E2D0045A139 = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +78,10 @@
 		772C10C32AE41E2D0045A139 /* Neobis_iOS_UIScreens */ = {
 			isa = PBXGroup;
 			children = (
+				77651CC52AE63D2E0078B921 /* Fonts */,
+				771D65CC2AE9050E00FCB10E /* models */,
+				77F7D1722AE6AD8F006F0D53 /* CuctomCells */,
 				77E08AD12AE570CB0089F498 /* ViewControllers */,
-				77E08ACF2AE569490089F498 /* static */,
 				77E08ACC2AE525E60089F498 /* Extensions */,
 				772C10C42AE41E2D0045A139 /* AppDelegate.swift */,
 				772C10C62AE41E2D0045A139 /* SceneDelegate.swift */,
@@ -72,10 +92,20 @@
 			path = Neobis_iOS_UIScreens;
 			sourceTree = "<group>";
 		};
+		77651CC52AE63D2E0078B921 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				77651CC82AE63DCA0078B921 /* Overpass-Bold.ttf */,
+				77651CC92AE63DD30078B921 /* Overpass-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		77E08ACC2AE525E60089F498 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				77E08ACD2AE525FC0089F498 /* Extensions.swift */,
+				77E08ACD2AE525FC0089F498 /* ColorExtension.swift */,
+				77651CCC2AE66C3C0078B921 /* LabelExtentaions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -87,6 +117,15 @@
 				77E08AD22AE570FC0089F498 /* SecondWeatherViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		77F7D1722AE6AD8F006F0D53 /* CuctomCells */ = {
+			isa = PBXGroup;
+			children = (
+				77F7D1732AE6ADC0006F0D53 /* WeatherCustomCollectionViewCell.swift */,
+				771D65CF2AE9505D00FCB10E /* WeatherCustomTableViewCell.swift */,
+			);
+			path = CuctomCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +186,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77651CCB2AE63DDD0078B921 /* Overpass-Regular.ttf in Resources */,
 				772C10D12AE41E2F0045A139 /* LaunchScreen.storyboard in Resources */,
-				77E08AD02AE569490089F498 /* static in Resources */,
 				772C10CE2AE41E2F0045A139 /* Assets.xcassets in Resources */,
+				77651CCA2AE63DDA0078B921 /* Overpass-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,11 +200,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				771D65D02AE9505D00FCB10E /* WeatherCustomTableViewCell.swift in Sources */,
 				772C10C92AE41E2D0045A139 /* FirstWeatherViewController.swift in Sources */,
 				772C10C52AE41E2D0045A139 /* AppDelegate.swift in Sources */,
 				77E08AD32AE570FC0089F498 /* SecondWeatherViewController.swift in Sources */,
 				772C10C72AE41E2D0045A139 /* SceneDelegate.swift in Sources */,
-				77E08ACE2AE525FC0089F498 /* Extensions.swift in Sources */,
+				77E08ACE2AE525FC0089F498 /* ColorExtension.swift in Sources */,
+				77651CCD2AE66C3C0078B921 /* LabelExtentaions.swift in Sources */,
+				771D65CE2AE9052300FCB10E /* WeatherModel.swift in Sources */,
+				77F7D1742AE6ADC0006F0D53 /* WeatherCustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
