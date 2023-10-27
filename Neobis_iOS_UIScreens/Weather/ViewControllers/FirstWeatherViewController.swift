@@ -9,14 +9,14 @@ import UIKit
 
 class FirstWeatherViewController: UIViewController {
     
-    let gradientLayer: CAGradientLayer = {
+    private lazy var gradientLayer: CAGradientLayer = {
         let gradient = CAGradientLayer()
         return gradient
     }()
     
-    let contentViewGradient = CAGradientLayer()
+    private lazy var contentViewGradient = CAGradientLayer()
 
-    let decoreLineImage1: UIImageView = {
+    private lazy var decoreLineImage1: UIImageView = {
         let image = UIImageView()
         image.image = UIImage(named: "line1")
         image.contentMode = .scaleAspectFit
@@ -24,7 +24,7 @@ class FirstWeatherViewController: UIViewController {
         return image
     }()
     
-    let decoreLineImage2: UIImageView = {
+    private lazy var decoreLineImage2: UIImageView = {
         let image = UIImageView()
         image.image = UIImage(named: "line2")
         image.contentMode = .scaleAspectFit
@@ -32,7 +32,7 @@ class FirstWeatherViewController: UIViewController {
         return image
     }()
     
-    let locationImage: UIImageView = {
+    private lazy var locationImage: UIImageView = {
         let image = UIImageView()
         image.image = UIImage(named: "map")
         image.contentMode = .scaleAspectFit
@@ -40,7 +40,7 @@ class FirstWeatherViewController: UIViewController {
         return image
     }()
     
-    let cityName: UILabel = {
+    private lazy var cityName: UILabel = {
         let label = UILabel()
         label.text = "Бишкек"
         label.font = UIFont(name: "Overpass-Bold", size: 24)
@@ -50,7 +50,7 @@ class FirstWeatherViewController: UIViewController {
         return label
     }()
     
-    let arrowDown: UIImageView = {
+    private lazy var arrowDown: UIImageView = {
         let image = UIImageView()
         image.image = UIImage(named: "arrowDown")
         image.contentMode = .scaleAspectFill
@@ -59,7 +59,7 @@ class FirstWeatherViewController: UIViewController {
         return image
     }()
     
-    let notificationImage: UIImageView = {
+    private lazy var notificationImage: UIImageView = {
         let image = UIImageView()
         image.image = UIImage(named: "notification")
         image.contentMode = .scaleAspectFill
@@ -68,13 +68,13 @@ class FirstWeatherViewController: UIViewController {
         return image
     }()
     
-    let cityView: UIView = {
+    private lazy var cityView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
     
-    let sunImage: UIImageView = {
+    private lazy var sunImage: UIImageView = {
         let image = UIImageView()
         image.image = UIImage(named: "sun")
         image.contentMode = .scaleAspectFit
@@ -82,7 +82,7 @@ class FirstWeatherViewController: UIViewController {
         return image
     }()
     
-    let contentView: UIView = {
+    private lazy var contentView: UIView = {
         let view = UIView()
         view.backgroundColor = UIColor(hex: "#FFFFFF", alpha: 0.3)
         view.layer.borderWidth = 2
@@ -92,7 +92,7 @@ class FirstWeatherViewController: UIViewController {
         return view
     }()
     
-    let weatherButton: UIButton = {
+    private lazy var weatherButton: UIButton = {
         let button = UIButton()
         button.backgroundColor = .white
         button.layer.cornerRadius = 20
@@ -104,7 +104,7 @@ class FirstWeatherViewController: UIViewController {
         return button
     }()
     
-    let dateLabel: UILabel = {
+    private lazy var dateLabel: UILabel = {
         let label = UILabel()
         label.text = "Сегодня, 26 Апрель"
         label.font = UIFont(name: "Overpass-Regular", size: 18)
@@ -114,7 +114,7 @@ class FirstWeatherViewController: UIViewController {
         return label
     }()
     
-    let temperatureLabel: UILabel = {
+    private lazy var temperatureLabel: UILabel = {
         let label = UILabel()
         label.text = "22°"
         label.font = UIFont(name: "Overpass-Regular", size: 100)
@@ -124,7 +124,7 @@ class FirstWeatherViewController: UIViewController {
         return label
     }()
     
-    let titleLabel: UILabel = {
+    private lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.text = "Солнечно"
         label.font = UIFont(name: "Overpass-Bold", size: 24)
@@ -134,13 +134,13 @@ class FirstWeatherViewController: UIViewController {
         return label
     }()
     
-    let weatherConditionView: UIView = {
+    private lazy var weatherConditionView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
     
-    let windImage: UIImageView = {
+    private lazy var windImage: UIImageView = {
         let image = UIImageView()
         image.image = UIImage(named: "wind")
         image.contentMode = .scaleAspectFill
@@ -149,7 +149,7 @@ class FirstWeatherViewController: UIViewController {
         return image
     }()
     
-    let rainImage: UIImageView = {
+    private lazy var rainImage: UIImageView = {
         let image = UIImageView()
         image.image = UIImage(named: "rain")
         image.contentMode = .scaleAspectFill
@@ -158,7 +158,7 @@ class FirstWeatherViewController: UIViewController {
         return image
     }()
     
-    let windLabel: UILabel = {
+    private lazy var windLabel: UILabel = {
         let label = UILabel()
         label.text = "Ветер |  15 km/h"
         label.font = UIFont(name: "Overpass-Regular", size: 18)
@@ -168,7 +168,7 @@ class FirstWeatherViewController: UIViewController {
         return label
     }()
     
-    let rainLabel: UILabel = {
+    private lazy var rainLabel: UILabel = {
         let label = UILabel()
         label.text = "Дождь | 26 %"
         label.font = UIFont(name: "Overpass-Regular", size: 18)
@@ -178,7 +178,7 @@ class FirstWeatherViewController: UIViewController {
         return label
     }()
     
-    let buttonLable:UILabel = {
+    private lazy var buttonLable:UILabel = {
         let label = UILabel()
         label.text = "Прогноз на неделю"
         label.font = UIFont(name: "Overpass-Regular", size: 16)
@@ -187,7 +187,7 @@ class FirstWeatherViewController: UIViewController {
         return label
     }()
     
-    let arrowTop: UIImageView = {
+    private lazy var arrowTop: UIImageView = {
         let image = UIImageView()
         image.image = UIImage(systemName: "chevron.up")
         image.contentMode = .scaleAspectFill
@@ -202,7 +202,7 @@ class FirstWeatherViewController: UIViewController {
         setupGradient()
     }
     
-    func setupGradient() {
+    private func setupGradient() {
         gradientLayer.frame = view.bounds
         gradientLayer.colors = [UIColor(red: 0 / 255, green: 190 / 255, blue: 229 / 255, alpha: 1).cgColor, UIColor(red: 23 / 255, green: 154 / 255, blue: 250 / 255, alpha: 1).cgColor]
         gradientLayer.startPoint = CGPoint(x: 0.5, y: 0)
@@ -216,7 +216,7 @@ class FirstWeatherViewController: UIViewController {
         view.layer.insertSublayer(gradientLayer, at: 0)
     }
 
-    func setupConstraints() {
+    private func setupConstraints() {
         view.addSubview(decoreLineImage1)
         view.addSubview(decoreLineImage2)
         view.addSubview(cityView)

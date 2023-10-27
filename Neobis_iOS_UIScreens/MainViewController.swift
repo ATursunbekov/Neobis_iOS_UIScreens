@@ -12,35 +12,35 @@ class MainViewController: UIViewController {
     private lazy var screen1: UIButton = {
         let button = UIButton()
         button.setTitle("Weather", for: .normal)
-        button.setTitleColor(.systemBlue, for: .normal)
+        button.setTitleColor(.systemPink, for: .normal)
         return button
     }()
     
     private lazy var screen2: UIButton = {
         let button = UIButton()
         button.setTitle("Crypto", for: .normal)
-        button.setTitleColor(.systemBlue, for: .normal)
+        button.setTitleColor(.systemPink, for: .normal)
         return button
     }()
     
     private lazy var screen3: UIButton = {
         let button = UIButton()
         button.setTitle("Finance", for: .normal)
-        button.setTitleColor(.systemBlue, for: .normal)
+        button.setTitleColor(.systemPink, for: .normal)
         return button
     }()
     
     private lazy var screen4: UIButton = {
         let button = UIButton()
         button.setTitle("Travel", for: .normal)
-        button.setTitleColor(.systemBlue, for: .normal)
+        button.setTitleColor(.systemPink, for: .normal)
         return button
     }()
     
     private lazy var screen5: UIButton = {
         let button = UIButton()
         button.setTitle("Education", for: .normal)
-        button.setTitleColor(.systemBlue, for: .normal)
+        button.setTitleColor(.systemPink, for: .normal)
         return button
     }()
 
@@ -87,18 +87,28 @@ class MainViewController: UIViewController {
     }
     
     @objc func action1() {
-        self.present(FirstWeatherViewController(), animated: true, completion: nil)
+        let secondViewController = FirstWeatherViewController()
+        secondViewController.modalPresentationStyle = .fullScreen
+        self.present(secondViewController, animated: true, completion: nil)
     }
     @objc func action2() {
-        self.present(CryptoTabBarController(), animated: true, completion: nil)
+        let secondViewController = CryptoTabBarController()
+        secondViewController.modalPresentationStyle = .fullScreen
+        self.present(secondViewController, animated: true, completion: nil)
     }
     @objc func action3() {
-        self.present(FinanceTabBarController(), animated: true, completion: nil)
+        let secondViewController = FinanceTabBarController()
+        secondViewController.modalPresentationStyle = .fullScreen
+        self.present(secondViewController, animated: true, completion: nil)
     }
     @objc func action4() {
-        self.present(TravelViewController(), animated: true, completion: nil)
+        let secondViewController = TravelViewController()
+        secondViewController.modalPresentationStyle = .fullScreen
+        self.present(secondViewController, animated: true, completion: nil)
     }
     @objc func action5() {
-        self.present(EducationViewController(), animated: true, completion: nil)
+        let secondViewController = EducationViewController()
+        secondViewController.modalPresentationStyle = .fullScreen
+        self.present(secondViewController, animated: true, completion: nil)
     }
 }

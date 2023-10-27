@@ -18,20 +18,20 @@ class CryptoViewController: UIViewController {
         Coin(name: "Ripple", image: "xrp", percentage: "+0,27%", money: "$5,241.62 ", coins: "16447,65 XRP", color: "#638FFE"),
     ]
 
-    lazy var titleLabel: UILabel = {
+    private lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.text = "Портфолио"
         label.font = UIFont(name: "Segoe UI Bold", size: 32)
         return label
     }()
     
-    lazy var settingImage: UIImageView = {
+    private lazy var settingImage: UIImageView = {
         let image = UIImageView(image: UIImage(named: "cryptoSettings"))
         image.contentMode = .scaleAspectFit
         return image
     }()
     
-    lazy var checkAllLabel: UILabel = {
+    private lazy var checkAllLabel: UILabel = {
         let label = UILabel()
         label.text = "посмотреть все"
         label.font = UIFont(name: "Segoe UI", size: 14)
@@ -39,7 +39,7 @@ class CryptoViewController: UIViewController {
         return label
     }()
     
-    lazy var tableView: UITableView = {
+    private lazy var tableView: UITableView = {
         let tableView = UITableView()
         tableView.delegate = self
         tableView.dataSource = self

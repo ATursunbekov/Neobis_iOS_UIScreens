@@ -19,49 +19,49 @@ class FinanceViewController: UIViewController {
         Expense(name: "Ресторан", image: "heart", cost: "$325", goal: "Ужин", color: "#C141CC"),
     ]
 
-    lazy var titleLabel: UILabel = {
+    private lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.text = "Баланс"
         label.font = UIFont(name: "Inter-Medium", size: 16)
         return label
     }()
     
-    lazy var moneyAmount: UILabel = {
+    private lazy var moneyAmount: UILabel = {
         let label = UILabel()
         label.text = "$1200.89"
         label.font = UIFont(name: "Inter-ExtraBold", size: 36)
         return label
     }()
     
-    lazy var date: UILabel = {
+    private lazy var date: UILabel = {
         let label = UILabel()
         label.text = "Апрель 2020"
         label.font = UIFont(name: "Inter-Regular", size: 18)
         return label
     }()
     
-    lazy var arrowLeft: UIImageView = {
+    private lazy var arrowLeft: UIImageView = {
         let image = UIImageView(image: UIImage(systemName: "chevron.left"))
         image.contentMode = .scaleAspectFit
         image.tintColor = .black
         return image
     }()
     
-    lazy var arrowRight: UIImageView = {
+    private lazy var arrowRight: UIImageView = {
         let image = UIImageView(image: UIImage(systemName: "chevron.right"))
         image.contentMode = .scaleAspectFit
         image.tintColor = .black
         return image
     }()
     
-    lazy var mainView: UIView = {
+    private lazy var mainView: UIView = {
         let mainView = UIView()
         mainView.backgroundColor = .white
         mainView.layer.cornerRadius = 31
         return mainView
     }()
     
-    lazy var tableView: UITableView = {
+    private lazy var tableView: UITableView = {
         let tableView = UITableView()
         tableView.delegate = self
         tableView.dataSource = self
@@ -71,7 +71,7 @@ class FinanceViewController: UIViewController {
         return tableView
     }()
     
-    lazy var etcLabel: UILabel = {
+    private lazy var etcLabel: UILabel = {
         let label = UILabel()
         label.text = "См. ещё"
         label.font = UIFont(name: "Inter-Regular", size: 16)
