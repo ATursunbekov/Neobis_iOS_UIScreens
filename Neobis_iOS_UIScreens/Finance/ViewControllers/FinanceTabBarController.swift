@@ -30,10 +30,7 @@ class FinanceTabBarController: UITabBarController {
     private func createNav(title: String, image: UIImage?, vc: UIViewController) -> UINavigationController {
         let nav = UINavigationController(rootViewController: vc)
         nav.tabBarItem.title = title
-        // Set the image and its rendering mode to alwaysTemplate for normal state
         nav.tabBarItem.image = image?.withRenderingMode(.alwaysTemplate)
-            
-        // Set the selected image and its rendering mode to alwaysOriginal
         nav.tabBarItem.selectedImage = image?.withRenderingMode(.alwaysOriginal)
         return nav
     }

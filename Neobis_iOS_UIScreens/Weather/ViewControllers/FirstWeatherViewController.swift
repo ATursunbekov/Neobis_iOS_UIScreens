@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FirstWeatherViewController: UIViewController {
     
     let gradientLayer: CAGradientLayer = {
         let gradient = CAGradientLayer()

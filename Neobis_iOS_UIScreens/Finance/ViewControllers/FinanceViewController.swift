@@ -66,6 +66,7 @@ class FinanceViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.rowHeight = 57
+        tableView.showsVerticalScrollIndicator = false
         tableView.register(FinanceCustomTableViewCell.self, forCellReuseIdentifier: "financeCell")
         return tableView
     }()

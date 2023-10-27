@@ -37,6 +37,11 @@
 		772C10C92AE41E2D0045A139 /* FirstWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C10C82AE41E2D0045A139 /* FirstWeatherViewController.swift */; };
 		772C10CE2AE41E2F0045A139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772C10CD2AE41E2F0045A139 /* Assets.xcassets */; };
 		772C10D12AE41E2F0045A139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772C10CF2AE41E2F0045A139 /* LaunchScreen.storyboard */; };
+		7764A0342AEBBEC40072DF29 /* EducationTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7764A0332AEBBEC40072DF29 /* EducationTabBarController.swift */; };
+		7764A0362AEBBF030072DF29 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7764A0352AEBBF030072DF29 /* EducationViewController.swift */; };
+		7764A0382AEBCA9D0072DF29 /* EducationCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7764A0372AEBCA9D0072DF29 /* EducationCustomTableViewCell.swift */; };
+		7764A03A2AEBCEB00072DF29 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7764A0392AEBCEB00072DF29 /* Topic.swift */; };
+		7764A03C2AEBE2DC0072DF29 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7764A03B2AEBE2DC0072DF29 /* MainViewController.swift */; };
 		77651CCA2AE63DDA0078B921 /* Overpass-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77651CC82AE63DCA0078B921 /* Overpass-Bold.ttf */; };
 		77651CCB2AE63DDD0078B921 /* Overpass-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77651CC92AE63DD30078B921 /* Overpass-Regular.ttf */; };
 		77651CCD2AE66C3C0078B921 /* LabelExtentaions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77651CCC2AE66C3C0078B921 /* LabelExtentaions.swift */; };
@@ -78,6 +83,11 @@
 		772C10CD2AE41E2F0045A139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		772C10D02AE41E2F0045A139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		772C10D22AE41E2F0045A139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7764A0332AEBBEC40072DF29 /* EducationTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationTabBarController.swift; sourceTree = "<group>"; };
+		7764A0352AEBBF030072DF29 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
+		7764A0372AEBCA9D0072DF29 /* EducationCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationCustomTableViewCell.swift; sourceTree = "<group>"; };
+		7764A0392AEBCEB00072DF29 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		7764A03B2AEBE2DC0072DF29 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		77651CC82AE63DCA0078B921 /* Overpass-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Bold.ttf"; sourceTree = "<group>"; };
 		77651CC92AE63DD30078B921 /* Overpass-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Regular.ttf"; sourceTree = "<group>"; };
 		77651CCC2AE66C3C0078B921 /* LabelExtentaions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExtentaions.swift; sourceTree = "<group>"; };
@@ -240,19 +250,56 @@
 		772C10C32AE41E2D0045A139 /* Neobis_iOS_UIScreens */ = {
 			isa = PBXGroup;
 			children = (
-				7714BD3A2AEAE2F200C22EAB /* Travel */,
 				77651CC52AE63D2E0078B921 /* Fonts */,
+				7764A02F2AEBBDBF0072DF29 /* Education */,
+				7714BD3A2AEAE2F200C22EAB /* Travel */,
 				7708E9112AEA394B00B66687 /* Weather */,
 				7708E9122AEA396300B66687 /* Crypto */,
 				7708E92A2AEA790300B66687 /* Finance */,
 				77E08ACC2AE525E60089F498 /* Extensions */,
 				772C10C42AE41E2D0045A139 /* AppDelegate.swift */,
 				772C10C62AE41E2D0045A139 /* SceneDelegate.swift */,
+				7764A03B2AEBE2DC0072DF29 /* MainViewController.swift */,
 				772C10CD2AE41E2F0045A139 /* Assets.xcassets */,
 				772C10CF2AE41E2F0045A139 /* LaunchScreen.storyboard */,
 				772C10D22AE41E2F0045A139 /* Info.plist */,
 			);
 			path = Neobis_iOS_UIScreens;
+			sourceTree = "<group>";
+		};
+		7764A02F2AEBBDBF0072DF29 /* Education */ = {
+			isa = PBXGroup;
+			children = (
+				7764A0322AEBBE1A0072DF29 /* Models */,
+				7764A0312AEBBDDF0072DF29 /* CustomCells */,
+				7764A0302AEBBDCE0072DF29 /* ViewController */,
+			);
+			path = Education;
+			sourceTree = "<group>";
+		};
+		7764A0302AEBBDCE0072DF29 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7764A0332AEBBEC40072DF29 /* EducationTabBarController.swift */,
+				7764A0352AEBBF030072DF29 /* EducationViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7764A0312AEBBDDF0072DF29 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				7764A0372AEBCA9D0072DF29 /* EducationCustomTableViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		7764A0322AEBBE1A0072DF29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7764A0392AEBCEB00072DF29 /* Topic.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		77651CC52AE63D2E0078B921 /* Fonts */ = {
@@ -381,9 +428,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7764A0342AEBBEC40072DF29 /* EducationTabBarController.swift in Sources */,
 				771D65D02AE9505D00FCB10E /* WeatherCustomTableViewCell.swift in Sources */,
 				772C10C92AE41E2D0045A139 /* FirstWeatherViewController.swift in Sources */,
+				7764A0382AEBCA9D0072DF29 /* EducationCustomTableViewCell.swift in Sources */,
 				7708E9162AEA3A1D00B66687 /* SecondCryptoViewController.swift in Sources */,
+				7764A0362AEBBF030072DF29 /* EducationViewController.swift in Sources */,
 				7708E9312AEA79AF00B66687 /* FinanceTabBarController.swift in Sources */,
 				7714BD462AEAE51F00C22EAB /* City.swift in Sources */,
 				7708E9372AEA8E9600B66687 /* Expense.swift in Sources */,
@@ -391,6 +441,8 @@
 				772C10C52AE41E2D0045A139 /* AppDelegate.swift in Sources */,
 				7708E9142AEA39E300B66687 /* CryptoTabBarController.swift in Sources */,
 				771D65D22AE985A900FCB10E /* CryptoViewController.swift in Sources */,
+				7764A03C2AEBE2DC0072DF29 /* MainViewController.swift in Sources */,
+				7764A03A2AEBCEB00072DF29 /* Topic.swift in Sources */,
 				77E08AD32AE570FC0089F498 /* SecondWeatherViewController.swift in Sources */,
 				7714BD3D2AEAE32800C22EAB /* TravelViewController.swift in Sources */,
 				772C10C72AE41E2D0045A139 /* SceneDelegate.swift in Sources */,
