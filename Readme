@@ -1,1 +1,13 @@
 Alikhan Tursunbekov
+
+UIScreens
+
+UIScreens is a project designed for developers looking to hone their skills in creating user interfaces programmatically using UIKit. This repository serves as a playground for practicing the art of building elegant and responsive UIs without relying on Interface Builder or storyboards.
+
+Features
+
+Programmatic UI Creation: Learn the ins and outs of building user interfaces from scratch using UIKit components.
+Modular Design: Explore various UI elements organized into separate modules, making it easy to focus on specific components.
+Responsive Layouts: Practice creating layouts that adapt gracefully to different screen sizes and orientations.
+Interactive Examples: Dive into interactive examples that demonstrate how to handle user input, animations, and transitions programmatically.
+UIKit Best Practices: Follow best practices and design patterns while constructing your UI elements for maintainability and scalability.
