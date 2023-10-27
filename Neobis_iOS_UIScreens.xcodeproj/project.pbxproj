@@ -7,8 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7708E9142AEA39E300B66687 /* CryptoTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7708E9132AEA39E300B66687 /* CryptoTabBarController.swift */; };
+		7708E9162AEA3A1D00B66687 /* SecondCryptoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7708E9152AEA3A1D00B66687 /* SecondCryptoViewController.swift */; };
+		7708E9182AEA3A4E00B66687 /* ThirdCryptoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7708E9172AEA3A4E00B66687 /* ThirdCryptoViewController.swift */; };
+		7708E91A2AEA57E000B66687 /* Segoe UI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7708E9192AEA57E000B66687 /* Segoe UI.ttf */; };
+		7708E91C2AEA57ED00B66687 /* Segoe UI Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7708E91B2AEA57ED00B66687 /* Segoe UI Bold.ttf */; };
+		7708E9202AEA616000B66687 /* CryptoCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7708E91F2AEA616000B66687 /* CryptoCustomTableViewCell.swift */; };
+		7708E9232AEA619C00B66687 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7708E9222AEA619C00B66687 /* Coin.swift */; };
+		7708E9252AEA787400B66687 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7708E9242AEA787400B66687 /* Inter-ExtraBold.ttf */; };
+		7708E9282AEA789D00B66687 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7708E9262AEA789D00B66687 /* Inter-Regular.ttf */; };
+		7708E9292AEA789D00B66687 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7708E9272AEA789D00B66687 /* Inter-Medium.ttf */; };
+		7708E92F2AEA798700B66687 /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7708E92E2AEA798700B66687 /* FinanceViewController.swift */; };
+		7708E9312AEA79AF00B66687 /* FinanceTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7708E9302AEA79AF00B66687 /* FinanceTabBarController.swift */; };
+		7708E9332AEA79DA00B66687 /* SecondFinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7708E9322AEA79DA00B66687 /* SecondFinanceViewController.swift */; };
+		7708E9352AEA79EE00B66687 /* ThirdFinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7708E9342AEA79EE00B66687 /* ThirdFinanceViewController.swift */; };
+		7708E9372AEA8E9600B66687 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7708E9362AEA8E9600B66687 /* Expense.swift */; };
+		7708E9392AEA92A300B66687 /* FinanceCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7708E9382AEA92A300B66687 /* FinanceCustomTableViewCell.swift */; };
+		7714BD3D2AEAE32800C22EAB /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7714BD3C2AEAE32800C22EAB /* TravelViewController.swift */; };
+		7714BD3F2AEAE3C200C22EAB /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7714BD3E2AEAE3C200C22EAB /* NotoSans-Regular.ttf */; };
+		7714BD422AEAE3D600C22EAB /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7714BD402AEAE3D600C22EAB /* NotoSans-Bold.ttf */; };
+		7714BD432AEAE3D600C22EAB /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7714BD412AEAE3D600C22EAB /* NotoSans-Medium.ttf */; };
+		7714BD462AEAE51F00C22EAB /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7714BD452AEAE51F00C22EAB /* City.swift */; };
+		7714BD492AEAECED00C22EAB /* TravelCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7714BD482AEAECED00C22EAB /* TravelCustomTableViewCell.swift */; };
 		771D65CE2AE9052300FCB10E /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771D65CD2AE9052300FCB10E /* WeatherModel.swift */; };
 		771D65D02AE9505D00FCB10E /* WeatherCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771D65CF2AE9505D00FCB10E /* WeatherCustomTableViewCell.swift */; };
+		771D65D22AE985A900FCB10E /* CryptoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771D65D12AE985A900FCB10E /* CryptoViewController.swift */; };
 		772C10C52AE41E2D0045A139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C10C42AE41E2D0045A139 /* AppDelegate.swift */; };
 		772C10C72AE41E2D0045A139 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C10C62AE41E2D0045A139 /* SceneDelegate.swift */; };
 		772C10C92AE41E2D0045A139 /* FirstWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C10C82AE41E2D0045A139 /* FirstWeatherViewController.swift */; };
@@ -23,8 +46,31 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7708E9132AEA39E300B66687 /* CryptoTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTabBarController.swift; sourceTree = "<group>"; };
+		7708E9152AEA3A1D00B66687 /* SecondCryptoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCryptoViewController.swift; sourceTree = "<group>"; };
+		7708E9172AEA3A4E00B66687 /* ThirdCryptoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdCryptoViewController.swift; sourceTree = "<group>"; };
+		7708E9192AEA57E000B66687 /* Segoe UI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI.ttf"; sourceTree = "<group>"; };
+		7708E91B2AEA57ED00B66687 /* Segoe UI Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI Bold.ttf"; sourceTree = "<group>"; };
+		7708E91F2AEA616000B66687 /* CryptoCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCustomTableViewCell.swift; sourceTree = "<group>"; };
+		7708E9222AEA619C00B66687 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		7708E9242AEA787400B66687 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		7708E9262AEA789D00B66687 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		7708E9272AEA789D00B66687 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		7708E92E2AEA798700B66687 /* FinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
+		7708E9302AEA79AF00B66687 /* FinanceTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceTabBarController.swift; sourceTree = "<group>"; };
+		7708E9322AEA79DA00B66687 /* SecondFinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFinanceViewController.swift; sourceTree = "<group>"; };
+		7708E9342AEA79EE00B66687 /* ThirdFinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFinanceViewController.swift; sourceTree = "<group>"; };
+		7708E9362AEA8E9600B66687 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		7708E9382AEA92A300B66687 /* FinanceCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceCustomTableViewCell.swift; sourceTree = "<group>"; };
+		7714BD3C2AEAE32800C22EAB /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
+		7714BD3E2AEAE3C200C22EAB /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		7714BD402AEAE3D600C22EAB /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		7714BD412AEAE3D600C22EAB /* NotoSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Medium.ttf"; sourceTree = "<group>"; };
+		7714BD452AEAE51F00C22EAB /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		7714BD482AEAECED00C22EAB /* TravelCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCustomTableViewCell.swift; sourceTree = "<group>"; };
 		771D65CD2AE9052300FCB10E /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		771D65CF2AE9505D00FCB10E /* WeatherCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCustomTableViewCell.swift; sourceTree = "<group>"; };
+		771D65D12AE985A900FCB10E /* CryptoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewController.swift; sourceTree = "<group>"; };
 		772C10C12AE41E2D0045A139 /* Neobis_iOS_UIScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neobis_iOS_UIScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		772C10C42AE41E2D0045A139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		772C10C62AE41E2D0045A139 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +97,122 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7708E9112AEA394B00B66687 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				7708E91D2AEA60F900B66687 /* ViewControllers */,
+				77F7D1722AE6AD8F006F0D53 /* CuctomCells */,
+				771D65CC2AE9050E00FCB10E /* models */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		7708E9122AEA396300B66687 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				7708E9212AEA618E00B66687 /* Model */,
+				7708E91E2AEA613700B66687 /* CustomCells */,
+				77E08AD12AE570CB0089F498 /* ViewControllers */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		7708E91D2AEA60F900B66687 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				772C10C82AE41E2D0045A139 /* FirstWeatherViewController.swift */,
+				77E08AD22AE570FC0089F498 /* SecondWeatherViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7708E91E2AEA613700B66687 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				7708E91F2AEA616000B66687 /* CryptoCustomTableViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		7708E9212AEA618E00B66687 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7708E9222AEA619C00B66687 /* Coin.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7708E92A2AEA790300B66687 /* Finance */ = {
+			isa = PBXGroup;
+			children = (
+				7708E92D2AEA797100B66687 /* CustomCells */,
+				7708E92C2AEA796800B66687 /* Models */,
+				7708E92B2AEA795800B66687 /* ViewControllers */,
+			);
+			path = Finance;
+			sourceTree = "<group>";
+		};
+		7708E92B2AEA795800B66687 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7708E92E2AEA798700B66687 /* FinanceViewController.swift */,
+				7708E9302AEA79AF00B66687 /* FinanceTabBarController.swift */,
+				7708E9322AEA79DA00B66687 /* SecondFinanceViewController.swift */,
+				7708E9342AEA79EE00B66687 /* ThirdFinanceViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7708E92C2AEA796800B66687 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7708E9362AEA8E9600B66687 /* Expense.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7708E92D2AEA797100B66687 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				7708E9382AEA92A300B66687 /* FinanceCustomTableViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		7714BD3A2AEAE2F200C22EAB /* Travel */ = {
+			isa = PBXGroup;
+			children = (
+				7714BD472AEAECD500C22EAB /* CustomCells */,
+				7714BD442AEAE4FC00C22EAB /* Models */,
+				7714BD3B2AEAE30900C22EAB /* ViewControllers */,
+			);
+			path = Travel;
+			sourceTree = "<group>";
+		};
+		7714BD3B2AEAE30900C22EAB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7714BD3C2AEAE32800C22EAB /* TravelViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7714BD442AEAE4FC00C22EAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7714BD452AEAE51F00C22EAB /* City.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7714BD472AEAECD500C22EAB /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				7714BD482AEAECED00C22EAB /* TravelCustomTableViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
 		771D65CC2AE9050E00FCB10E /* models */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,10 +240,11 @@
 		772C10C32AE41E2D0045A139 /* Neobis_iOS_UIScreens */ = {
 			isa = PBXGroup;
 			children = (
+				7714BD3A2AEAE2F200C22EAB /* Travel */,
 				77651CC52AE63D2E0078B921 /* Fonts */,
-				771D65CC2AE9050E00FCB10E /* models */,
-				77F7D1722AE6AD8F006F0D53 /* CuctomCells */,
-				77E08AD12AE570CB0089F498 /* ViewControllers */,
+				7708E9112AEA394B00B66687 /* Weather */,
+				7708E9122AEA396300B66687 /* Crypto */,
+				7708E92A2AEA790300B66687 /* Finance */,
 				77E08ACC2AE525E60089F498 /* Extensions */,
 				772C10C42AE41E2D0045A139 /* AppDelegate.swift */,
 				772C10C62AE41E2D0045A139 /* SceneDelegate.swift */,
@@ -95,8 +258,16 @@
 		77651CC52AE63D2E0078B921 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				7708E91B2AEA57ED00B66687 /* Segoe UI Bold.ttf */,
+				7708E9192AEA57E000B66687 /* Segoe UI.ttf */,
 				77651CC82AE63DCA0078B921 /* Overpass-Bold.ttf */,
 				77651CC92AE63DD30078B921 /* Overpass-Regular.ttf */,
+				7708E9242AEA787400B66687 /* Inter-ExtraBold.ttf */,
+				7708E9272AEA789D00B66687 /* Inter-Medium.ttf */,
+				7708E9262AEA789D00B66687 /* Inter-Regular.ttf */,
+				7714BD3E2AEAE3C200C22EAB /* NotoSans-Regular.ttf */,
+				7714BD402AEAE3D600C22EAB /* NotoSans-Bold.ttf */,
+				7714BD412AEAE3D600C22EAB /* NotoSans-Medium.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -113,8 +284,10 @@
 		77E08AD12AE570CB0089F498 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				772C10C82AE41E2D0045A139 /* FirstWeatherViewController.swift */,
-				77E08AD22AE570FC0089F498 /* SecondWeatherViewController.swift */,
+				7708E9132AEA39E300B66687 /* CryptoTabBarController.swift */,
+				771D65D12AE985A900FCB10E /* CryptoViewController.swift */,
+				7708E9152AEA3A1D00B66687 /* SecondCryptoViewController.swift */,
+				7708E9172AEA3A4E00B66687 /* ThirdCryptoViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -187,9 +360,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				77651CCB2AE63DDD0078B921 /* Overpass-Regular.ttf in Resources */,
+				7708E91C2AEA57ED00B66687 /* Segoe UI Bold.ttf in Resources */,
+				7714BD432AEAE3D600C22EAB /* NotoSans-Medium.ttf in Resources */,
+				7714BD3F2AEAE3C200C22EAB /* NotoSans-Regular.ttf in Resources */,
+				7714BD422AEAE3D600C22EAB /* NotoSans-Bold.ttf in Resources */,
 				772C10D12AE41E2F0045A139 /* LaunchScreen.storyboard in Resources */,
+				7708E9252AEA787400B66687 /* Inter-ExtraBold.ttf in Resources */,
+				7708E91A2AEA57E000B66687 /* Segoe UI.ttf in Resources */,
 				772C10CE2AE41E2F0045A139 /* Assets.xcassets in Resources */,
+				7708E9282AEA789D00B66687 /* Inter-Regular.ttf in Resources */,
 				77651CCA2AE63DDA0078B921 /* Overpass-Bold.ttf in Resources */,
+				7708E9292AEA789D00B66687 /* Inter-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,12 +383,27 @@
 			files = (
 				771D65D02AE9505D00FCB10E /* WeatherCustomTableViewCell.swift in Sources */,
 				772C10C92AE41E2D0045A139 /* FirstWeatherViewController.swift in Sources */,
+				7708E9162AEA3A1D00B66687 /* SecondCryptoViewController.swift in Sources */,
+				7708E9312AEA79AF00B66687 /* FinanceTabBarController.swift in Sources */,
+				7714BD462AEAE51F00C22EAB /* City.swift in Sources */,
+				7708E9372AEA8E9600B66687 /* Expense.swift in Sources */,
+				7708E9232AEA619C00B66687 /* Coin.swift in Sources */,
 				772C10C52AE41E2D0045A139 /* AppDelegate.swift in Sources */,
+				7708E9142AEA39E300B66687 /* CryptoTabBarController.swift in Sources */,
+				771D65D22AE985A900FCB10E /* CryptoViewController.swift in Sources */,
 				77E08AD32AE570FC0089F498 /* SecondWeatherViewController.swift in Sources */,
+				7714BD3D2AEAE32800C22EAB /* TravelViewController.swift in Sources */,
 				772C10C72AE41E2D0045A139 /* SceneDelegate.swift in Sources */,
+				7708E92F2AEA798700B66687 /* FinanceViewController.swift in Sources */,
+				7708E9332AEA79DA00B66687 /* SecondFinanceViewController.swift in Sources */,
 				77E08ACE2AE525FC0089F498 /* ColorExtension.swift in Sources */,
+				7708E9182AEA3A4E00B66687 /* ThirdCryptoViewController.swift in Sources */,
+				7708E9392AEA92A300B66687 /* FinanceCustomTableViewCell.swift in Sources */,
+				7708E9352AEA79EE00B66687 /* ThirdFinanceViewController.swift in Sources */,
 				77651CCD2AE66C3C0078B921 /* LabelExtentaions.swift in Sources */,
+				7708E9202AEA616000B66687 /* CryptoCustomTableViewCell.swift in Sources */,
 				771D65CE2AE9052300FCB10E /* WeatherModel.swift in Sources */,
+				7714BD492AEAECED00C22EAB /* TravelCustomTableViewCell.swift in Sources */,
 				77F7D1742AE6ADC0006F0D53 /* WeatherCustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
