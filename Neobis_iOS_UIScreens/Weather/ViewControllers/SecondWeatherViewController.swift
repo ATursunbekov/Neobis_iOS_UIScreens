@@ -110,7 +110,7 @@ class SecondWeatherViewController: UIViewController {
         layout.scrollDirection = .horizontal
         layout.sectionInset = UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 8)
         layout.minimumLineSpacing = 8
-        layout.itemSize = CGSize(width: 70, height: 155)
+        layout.itemSize = CGSize(width: (UIScreen.main.bounds.width * 70 / 414.0), height: 155)
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collectionView.delegate = self
         collectionView.dataSource = self
@@ -226,9 +226,8 @@ class SecondWeatherViewController: UIViewController {
             settingImage.widthAnchor.constraint(equalToConstant: 24),
             
             dateView.topAnchor.constraint(equalTo: backImage.bottomAnchor, constant: 49),
-            dateView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            dateView.widthAnchor.constraint(equalToConstant: 361),
-            dateView.heightAnchor.constraint(equalToConstant: 37),
+            dateView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30),
+            dateView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -23),
             
             firstDateLabel.centerYAnchor.constraint(equalTo: dateView.centerYAnchor),
             firstDateLabel.leadingAnchor.constraint(equalTo: dateView.leadingAnchor),
